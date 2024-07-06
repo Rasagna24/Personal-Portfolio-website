@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvathini Rasagna's Portfolio</title>
+    <link rel="stylesheet" href="me.css">
+    <script src="me.js" defer></script>
+    <style>
+        /* Additional styling */
+        .profile-image img {
+            width: 350px; /* Increased width */
+            height: 400px; /* Increased height */
+        }
+        .profile-text p {
+            font-size: 1rem; /* Increased font size */
+        }
+        .contact-details {
+            background-color: #00000054; /* Adjusted transparency */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            color: #ffffff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Parvathini Rasagna's Portfolio</h1>
+    </header>
+    <nav>
+        <ul id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-container">
+            <div class="profile-text">
+                <p>Enthusiastic third-year Computer Science student with a CGPA of 9.53, skilled in Java, C, Data Structures, Python, JavaScript, HTML, CSS, and Unix/Linux. Experienced in developing responsive websites, personal portfolios, and interactive tools. Contributed to an offline LLM with translation and paraphrasing for Smart India Hackathon. As a Pragnya Club member, attended workshops on IoT and cybersecurity, and interacted with alumni on industry insights. Certified in MS Office tools. Eager to bring my technical skills to a Software Engineering Intern role at Google.</p>
+                <div class="home-buttons">
+                    <a href="#contact">Contact Me</a>
+                    <a href="resume.pdf" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="profile.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Programming Languages: C, Python, Java</li>
+                    <li>Networking: Data Communication, Computer Networks</li>
+                    <li>Systems: Operating Systems</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Digital Logic Circuits</li>
+                    <li>Computer Organization Architecture</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <h3>Additional Skills</h3>
+                <ul>
+                    <li>Fundraising</li>
+                    <li>Leadership</li>
+                    <li>Organizing</li>
+                    <li>Planning</li>
+                    <li>Team Coordination</li>
+                    <li>Volunteering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="Works">
+        <h2>Works</h2>
+        <div class="projects-container">
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Smart India Hackathon</h3>
+                <div class="project-details">
+                    <p>Developed an offline Large Language Model (LLM) tool for generating human-like responses and implementing translation features.</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Python Case Study</h3>
+                <div class="project-details">
+                    <p>Implemented a loan management system using Pandas for data analysis and SQLite3 for database management. Evaluated loan eligibility based on property, salary, and education, and integrated voter eligibility assessment.</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>AI Applications Course Projects</h3>
+                <div class="project-details">
+                    <p>Implemented image recognition, text-to-speech, and voice recognition systems using AI techniques.</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Calculator Application</h3>
+                <div class="project-details">
+                    <p>Developed a basic calculator with a user-friendly interface for addition, subtraction, multiplication, and division using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Weather Web App</h3>
+                <div class="project-details">
+                    <p>Developed a weather web app fetching real-time data from a weather API based on user location input, displaying current conditions and temperature.</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Landing Page </h3>
+                <div class="project-details">
+                    <p>Developed a responsive landing page using html,css,js for the budget tracker and also for a web food platform</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Tic Tac Toe</h3>
+                <div class="project-details">
+                    <p>Developed a Tic TAc Toe web application game using basics of html,css,js also added neon bordering for user experience</p>
+                </div>
+            </div>
+            <div class="project" onclick="toggleProjectDetails(this)">
+                <h3>Stopwatch</h3>
+                <div class="project-details">
+                    <p>Developed a stopwatch web application with stop,pause,play,reset using js functionality and css interfaces </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li><strong>Hackathon Winner:</strong> University level-2023, Smart India Hackathon, Started Implementing Offline LLM.</li>
+            <li><strong>School Level Competitions:</strong> Participated in Spell Bee and Handwriting contests during schooling.</li>
+            <li><strong>Workshop Participation:</strong> Attended workshops on IoT, Cybersecurity, and MDC organized by Career Code.</li>
+            <li><strong>Volunteer Experience:</strong> Contributed as a member of WLF for the Shore Fest event in 4th semester.</li>
+            <li><strong>Certifications:</strong> Completed multiple certifications from Coursera and LinkedIn Learning on various topics.</li>
+            <li><strong>Language Proficiency:</strong> Proficient in English and Telugu.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-details">
+            <p>Email: <a href="mailto:prasagna@gitam.in">prasagna@gitam.in</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/parvathini-rasagna-a20999249" target="_blank">linkedin.com/in/parvathini-rasagna-a20999249</a></p>
+            <p>GitHub: <a href="https://github.com/Rasagna24" target="_blank">github.com/Rasagna24</a></p>
+            <p>Phone: +91 9676595709</p>
+            <p>Location: Visakhapatnam, Andhra Pradesh, India</p>
+        </div>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Parvathini Rasagna. All rights reserved.</p>
+    </footer>
+</body>
+</html>
